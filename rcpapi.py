@@ -1,6 +1,6 @@
 import sys
 import requests, json
-import pandas as pd
+#import pandas as pd
 token_url ='http://rcp.nctu.me:8000/api/token/'
 get_class_url = 'http://rcp.nctu.me:8000/api/curriculum/subjects/'
 token_json = {'username': 'admin', 'password':'123@Admin'}
